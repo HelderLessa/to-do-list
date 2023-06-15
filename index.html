@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2>
+          <i class="fas fa-clipboard-check" style="color: #f5f5f5"></i>To-do
+          List
+        </h2>
+        <div id="submit-box">
+          <input id="user-input" type="text" />
+          <button onclick="createItem()" id="submit-btn">Submit</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <!-- <div class="list-item">
+          <h3>Chores</h3>
+          <div>
+            <i class="fa-solid fa-square-check" style="color: #38a840"></i>
+            <i class="fa-solid fa-trash" style="color: #898b90"></i>
+          </div>
+        </div> -->
+      </div>
+    </main>
+  </body>
+</html>
